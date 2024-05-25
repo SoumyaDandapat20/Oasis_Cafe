@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab&display=swap');
+
+:root{
+   --blue: #1e175a;
+   --red:#8b0808;
+   --white:#fff;
+   --black:#000000;
+   --light-color:#aabffb;
+   --lightbg: #a4b6e9c4;
+   --gold:#ebb222;
+   --border:.2rem solid var(--black);
+}
+
+*{
+   font-family: 'Roboto Slab', serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   transition: .2s linear;
+}
+
+*::selection{
+   background-color: var(--blue);
+   color:var(--white);
+}
+
+html{
+   font-size: 70%;
+   overflow-x: hidden;
+   scroll-behavior: smooth;
+   scroll-padding-top: 8rem;
+}
+
+::-webkit-scrollbar{
+   height: .5rem;
+   width: 1rem;
+}
+
+::-webkit-scrollbar-track{
+   background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+   background-color: var(--blue);
+   border-radius: 5rem;
+}
+
+section{
+   margin-left: 1%;
+   margin-right: 1%;
+   padding:0;
+}
+
+.subtitle{
+   text-align: center;
+   margin-bottom: 2.5rem;
+   font-size: 3rem;
+   color: var(--blue);
+   /* background-image: linear-gradient(35deg,var(--white), var(--light-color),
+   var(--blue), var(--blue), var(--blue), var(--light-color) ,var(--white)); */
+   text-transform: uppercase;
+   letter-spacing: .3rem;
+}
+
+.snacks .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 23rem);
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+    padding: 0 18px;
+    overflow: hidden;
+ }
+ 
+ .snacks .box-container .box{
+    border: var(--border);
+    padding:1rem 2rem;
+    position: relative;
+    overflow: hidden;
+    background-color: var(--light-color);
+ }
+ 
+ .snacks .box-container .box img{
+    height: 23rem;
+    width: 100%;
+    object-fit: contain;   
+ }
+ 
+ .snacks .box-container .box .fa-eye,
+ .snacks .box-container .box .fa-shopping-cart{
+    position: absolute;
+    top: 1rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    line-height: 3.3rem;
+    border: var(--border);
+    background-color: var(--light-color);
+    cursor: pointer;
+    font-size: 2rem;
+    color: var(--black);
+    transition: .2s linear;
+ }
+ 
+ .snacks .box-container .box .fa-eye:hover,
+ .snacks .box-container .box .fa-shopping-cart:hover{
+    background-color: var(--lightbg);
+    color: var(--white);
+ }
+ 
+ .snacks .box-container .box .fa-eye{
+    left: -10rem;
+ }
+ 
+ .snacks .box-container .box .fa-shopping-cart{
+    right: -10rem;
+ }
+ 
+ .snacks .box-container .box:hover .fa-eye{
+    left: 1rem;
+ }
+ 
+ .snacks .box-container .box:hover .fa-shopping-cart{
+    right: 1rem;
+ }
+ 
+ .snacks .box-container .box .cat{
+    font-size: 1.9rem;
+    color:var(--blue);
+ }
+ 
+ .snacks .box-container .box .cat:hover{
+    color: var(--white);
+ }
+ 
+ .snacks .box-container .box .mname{
+    font-size: 1.8rem;
+    margin:0.3rem 0;
+    color:var(--black);
+    text-align: center;
+ }
+ .snacks .box-container .box .mname1{
+   font-size: 1.6rem;
+   margin:0.3rem 0;
+   color:var(--black);
+   text-align: center;
+}
+ 
+ .snacks .box-container .box .flex{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+ }
+ 
+ .snacks .box-container .box .flex .price{
+    margin-right: auto;
+    font-size: 2.2rem;
+    color:var(--black);
+ }
+ 
+ .snacks .box-container .box .flex .price span{
+    font-size: 2rem;
+    color:var(--blue);
+ }
+ 
+ .snacks .box-container .box .flex .qty{
+    padding: 0.5rem;
+    font-size: 1.8rem;
+    border:var(--border);
+    color:var(--black);
+    width: 7rem;
+    text-align: center;  
+ }
+ 
+ .snacks .more-btn{
+    margin-top: 2rem;
+    text-align: center;
+ }
+
+.menudiv .btn{
+   display:inline-flex;
+   margin-left: 28%;
+}
+
+.menudiv .btn a{
+   color: var(--white);
+}
+ 
+ .mybutton {
+   background-color : var(--blue);
+   color: white;
+   padding: 10px 20px;
+   border-radius: 4px;
+   border-color: var(--gold);
+   font-size: 2rem;
+ }
+
+ .mybutton a{
+   color: var(--white);
+ }
+ 
+ #down {
+   position: fixed;
+   bottom: 45px;
+   right: 10px;
+ }

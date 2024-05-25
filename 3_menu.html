@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oasis_Cafe|menu</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!--custom css file link-->
+    <link rel="stylesheet" href="css/styleoasis.css">
+    <link rel="stylesheet" href="css/stylemenu.css">
+</head>
+<body>
+    <header class="header">
+        <section class="flex">
+            <a href="1_home.html" class="logo">
+            <img src="images/logo.png" alt="logo"></a>
+            <nav class = "navbar">
+               <a href="1_home.html">HOME</a> 
+               <a href="2_about.html">ABOUT</a>
+               <a href="3_menu.html">MENU</a>
+               <a href="4_orders.html">ORDERS</a>
+               <a href="5_contact.html">CONTACT</a>
+            </nav>
+
+            <div class="icons">
+                <a href="search.html"><i class="fa fa-search"></i></a>
+                <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+                <div id="user-btn" class="fa fa-user"></div>
+                <div id="menu-btn" class="fa fa-bars"></div>
+            </div>
+
+            <div class="profile">
+                <p class="name"></p>
+                <div class="flex">
+                   <a href="profile.html" class="btn">PROFILE</a>
+                   <a href="#" class="delete-btn">LOGOUT</a>
+                </div>
+                <p class="account"><a href="login.html">LOGIN</a> or 
+                    <a href="register.html">REGISTER</a></p>
+            </div>           
+        </section>
+    </header>
+    
+    <div class="heading" id="head">
+        <h3>OUR MENU</h3>
+    </div>
+
+    <div class="menudiv">
+        
+            <button class="btn"><a href="#indian">Indian</a></button>
+            <button class="btn"><a href="#chinese">Chinese</a></button>        
+    </div>
+
+    <section class="snacks">
+        <h1 class="subtitle" id="indian">Indian</h1>
+        <div class="box-container" >
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/inddahivada.jpg" alt="Dahi Vada">
+                <div class="mname">Dahi Vada</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹ </span> 299
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/inddhokla.jpg"  alt="Dhokla">
+                
+                <div class="mname">Dhokla</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>459
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/indmysoreboonda.png" alt="Mysore Boonda">
+                
+                <div class="mname">Mysore Boonda </div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>399
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/indpaneerpakoda.jpg" alt="Paneer Pakoda">
+                
+                <div class="mname">Paneer Pakoda </div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>249
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/indpaanipuri.jpg" alt="Paani Puri">
+                
+                <div class="mname">Paani Puri</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>259
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/indrajkachori.jpg" alt="Raj Kachori">
+                
+                <div class="mname">Raj Kachori </div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>299
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/indvadapav.jpg" alt="Vada Pav">
+                
+                <div class="mname">Vada Pav </div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>179
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/indupma.jpg" alt="Upma">
+                
+                <div class="mname">Upma </div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>169
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/indbasmati.jpg" alt="Basmati">
+                
+                <div class="mname">Basmati </div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/inddaalmakhni.jpg" alt="Dal Makhni">
+                
+                <div class="mname">Dal Makhni </div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/indshahipaneer.jpg" alt="Shahi Paneer">
+                
+                <div class="mname">Shahi Paneer </div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+            
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/indmasaladosa.jpg" alt="Masala Dosa">
+                
+                <div class="mname">Masala Dosa</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/indtandoorichicken.jpg" alt="Tandoori Chicken">
+                
+                <div class="mname">Tandoori Chicken </div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/indnaan.jpg" alt="Naan">
+                
+                <div class="mname" id="naan">Naan </div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/indchickenbuttermasala.jpg" alt="Chicken-Bttr Masala">
+                
+                <div class="mname">Chicken-Bttr Masala</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/indhydrabadibiriyani.jpg" alt="Hyderabadi Biriyani">
+                
+                <div class="mname">Hyderabadi Biriyani</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/indthali.jpg" alt="Thaali">
+                
+                <div class="mname">Thaali</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/indgulabjamun.jpg" alt="Gulab Jamun">
+                
+                <div class="mname">Gulab Jamun</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/indspl2.jpg" alt="Rasmalai">
+                
+                <div class="mname">Rasmalai</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/indmawabarfi.jpg" alt="Mawa Barfi">
+                
+                <div class="mname">Mawa Barfi</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/indrabdighevar.png" alt="Rabdi Ghevar">
+                
+                <div class="mname">Rabdi Ghevar</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/indrasogulla.jpg" alt="Rasagola">
+                
+                <div class="mname">Rasagola</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/indmilkcake.jpeg" alt="Kalakand">
+                
+                <div class="mname">Kalakand</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/indmasalachaas.png" alt="Masala Chaas">
+                
+                <div class="mname">Masala Chaas</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/inddryfruitsmilkshake.png" alt="Dry Fruits Milkshake">
+                
+                <div class="mname">Dry Fruits Milkshake</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/indspl3.png" alt="Rabdi Faluda">
+                
+                <div class="mname">Rabdi Faluda</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/indmasalachai.jpg" alt="Masala Chai">
+                
+                <div class="mname">Masala Chai</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/indshikanji.png" alt="Shikanji">
+                
+                <div class="mname">Shikanji</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </section>
+    <br><br>
+    <section class="snacks" >
+        <h1 class="subtitle" id="chinese">Chinese</h1>
+        <div class="box-container" >
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chindimsum.jpg" alt="Dim Sum">
+                <div class="mname">Dim Sum</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹ </span> 299
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chinair-fryer-egg-rolls.jpeg"  alt="air-fryer-egg-rolls">
+                
+                <div class="mname">Air Fryer Egg Rolls</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>459
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chinbang-bang-shrimp.jpeg" alt="bang-bang-shrimp">
+                
+                <div class="mname">Bang-Bang Shrimp </div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>399
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chincrispycorn.jpg" alt="Crispy Corn">
+                
+                <div class="mname">Crispy Corn </div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>249
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+            
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chinricenoodleroll.jpg" alt="Rice Noodle Roll">
+                
+                <div class="mname">Rice Noodle Roll</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chinchiklollipop.png" alt="Chicken Lollipop">
+                
+                <div class="mname">Chicken Lollipop</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>259
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chindan-dannoodles.jpeg" alt="Dan Noodles">
+                
+                <div class="mname">Dan Noodles </div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>299
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chinchikfriedrice.jpg" alt="Chicken Fried Rice">
+                
+                <div class="mname">Chicken Fried Rice </div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>179
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chinblackpepperchicken.jpeg" alt="Black Pepper Chicken">
+                
+                <div class="mname">Black Pepper Chicken </div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>169
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chinbang-bang-cauliflower.jpg" alt="Bang-Bang Cauliflower">
+                
+                <div class="mname1">Bang-Bang Cauliflower</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chincrispyhoneysesamechicken.jpeg" alt="crispyhoneysesamechicken">
+                
+                <div class="mname1">Honey Sesame Chicken</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chingarlicbutterprawns.jpg" alt="Garlic Butter Prawns">
+                
+                <div class="mname1">Garlic Butter Prawns </div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+            
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chinhoneychillipotatoes.jpg" alt="Honey Chilli Potatoes">
+                
+                <div class="mname1">Honey Chilli Potatoes</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chinloaded-veggie-chow-mein.jpg" alt="Veggie Chowmein">
+                
+                <div class="mname">Veggie Chowmein </div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chinkungpaospaghetti.jpeg" alt="Kung Pao Spaghetti">
+                
+                <div class="mname">Kung Pao Spaghetti </div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chinmongolian-ramen-and-meatballs.jpg" alt="Ramen and Meatballs">
+                
+                <div class="mname">Ramen and Meatballs</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chinmanchurian.png" alt="Manchurian">
+                
+                <div class="mname">Manchurian</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chinscallionpancakes.jpg" alt="Scallion Pancakes">
+                
+                <div class="mname">Scallion Pancakes</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chinmanchowsoup.png" alt="Manchow Soup">
+                
+                <div class="mname">Manchow Soup</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chinsteamedbuns.jpeg" alt="Steamed Buns">
+                
+                <div class="mname">Steamed Buns</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chinhot-and-sour-soup.jpg" alt="Hot and Sour Soup">
+                
+                <div class="mname">Hot and Sour Soup</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chinblacktea.png" alt="Black Tea">
+                
+                <div class="mname">Black Tea</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chinRaspberry Snowflake Cake.png" alt="Raspberry Snowflake Cake">
+                
+                <div class="mname">Snowflake Cake</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>         
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chinRed Bean Paste Pancakes.png" alt="Pancakes (Doracakes)">
+                
+                <div class="mname">Pancakes (Doracake)</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chinspl2.png" alt="Dragon's Beard Candy">
+                
+                <div class="mname">Dragon's Beard Candy</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chinCocktail Buns.png" alt="Cocktail Buns">
+                
+                <div class="mname">Cocktail Buns</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chinspl3.jpg" alt="Brown Sugar Boba Milk Tea">
+                
+                <div class="mname">Boba Milk Tea</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/itaspl2.png" alt="Tiramisu Icebox Pie">
+                
+                <div class="mname">Tiramisu Icebox Pie</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </section>
+    <br>
+
+    <div id="down">
+        
+        <button class="mybutton"><a href="#head"><i class="fa-solid fa-arrow-up"></i></a></button>
+    
+    </div>
+
+<footer class="footer">
+    <div class="credit">
+        <a href="#" target="_blank">FAQ</a>
+        <a href="#" target="_blank">Contact Us</a>
+        <a href="#" target="_blank">Terms of Use</a>
+        <a href="#" target="_blank">Privacy Policy</a>
+        <a href="#" target="_blank">Refund Policy</a>
+        <p>Created by <span>Soumya Dandapat</span> | &copy 2023-Oasis Cafe  </p>
+    </div>
+    </footer>
+
+    <div class="loader">
+        <img src="images/loader.gif" alt="">
+    </div>
+    
+
+    <script src="JS/scriptoasis.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oasis_Cafe|Search</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!--custom css file link-->
+    <link rel="stylesheet" href="css/styleoasis.css">
+</head>
+<body>
+    <header class="header">
+        <section class="flex">
+            <a href="1_home.html" class="logo">
+            <img src="images/logo.png" alt="logo"></a>
+            <nav class = "navbar">
+               <a href="1_home.html">HOME</a> 
+               <a href="2_about.html">ABOUT</a>
+               <a href="3_menu.html">MENU</a>
+               <a href="4_orders.html">ORDERS</a>
+               <a href="5_contact.html">CONTACT</a>
+            </nav>
+
+            <div class="icons">
+                <a href="search.html"><i class="fa fa-search"></i></a>
+                <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+                <div id="user-btn" class="fa fa-user"></div>
+                <div id="menu-btn" class="fa fa-bars"></div>
+            </div>
+
+            <div class="profile">
+                <p class="name"></p>
+                <div class="flex">
+                   <a href="profile.html" class="btn">PROFILE</a>
+                   <a href="#" class="delete-btn">LOGOUT</a>
+                </div>
+                <p class="account"><a href="login.html">LOGIN</a> or 
+                    <a href="register.html">REGISTER</a></p>
+            </div>           
+        </section>
+    </header> <br>
+    
+
+    <section class="search-form">
+        <form method="post" action="">
+            <input type="text" name="search_box" placeholder="Search here..." class="box">
+            <button type="submit" name="search_btn" class="fas fa-search"></button>
+        </form>
+    </section>
+
+    <section class="products" style="min-height: 100vh; padding-top: 0;">
+
+    </section>
+
+
+    <footer class="footer">
+        <section class="grid">
+            <div class="box">
+                <img src="images/logocontact.png" alt="">
+                <h3>Our EMAIL</h3>
+                <a href="mailto:oasiscafe23@gmail.com">oasiscafe23@gmail.com</a>
+            </div>
+
+            <div class="box">
+                <img src="images/logoclock.png" alt="">
+                <h3>Opening Hours</h3>
+                <p>07:00 AM to 10:00 PM</p>
+            </div>
+
+            <div class="box">
+                <img src="images/logolocation.png" alt="">
+                <h3>Our Location</h3>
+                <a href="#">Bhubaneswar, Odisha - 751024</a>
+            </div>
+
+            <div class="box">
+                <img src="images/logonumber.png" alt="">
+                <h3>Our Contact</h3>
+                <a href="tel:1234509876">123-450-9876</a><br>
+                <a href="tel:9876012345">987-601-2345</a>
+            </div>
+
+        </section>
+        <div class="credit">
+        <a href="#" target="_blank">FAQ</a>
+        <a href="#" target="_blank">Contact Us</a>
+        <a href="#" target="_blank">Terms of Use</a>
+        <a href="#" target="_blank">Privacy Policy</a>
+        <a href="#" target="_blank">Refund Policy</a>
+        <p>Created by <span>Soumya Dandapat</span> | &copy 2023-Oasis Cafe  </p>
+    </div>
+    </footer>
+
+    <div class="loader">
+        <img src="images/loader.gif" alt="">
+    </div>
+    
+
+
+    <script src="JS/scriptoasis.js"></script>
+</body>
+</html>

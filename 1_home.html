@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oasis_Cafe|home</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!--custom css file link-->
+    <link rel="stylesheet" href="css/styleoasis.css">    
+
+</head>
+<body>
+    <header class="header">
+        <section class="flex">
+            <a href="1_home.html" class="logo">
+            <img src="images/logo.png" alt="logo"></a>
+            <nav class = "navbar">
+               <a href="1_home.html">HOME</a> 
+               <a href="2_about.html">ABOUT</a>
+               <a href="3_menu.html">MENU</a>
+               <a href="4_orders.html">ORDERS</a>
+               <a href="5_contact.html">CONTACT</a>
+            </nav>
+
+            <div class="icons">
+                <a href="search.html"><i class="fa fa-search"></i></a>
+                <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+                <div id="user-btn" class="fa fa-user"></div>
+                <div id="menu-btn" class="fa fa-bars"></div>
+            </div>
+
+            <div class="profile">
+                <p class="name"></p>
+                <div class="flex">
+                   <a href="profile.html" class="btn">PROFILE</a>
+                   <a href="#" class="delete-btn">LOGOUT</a>
+                </div>
+                <p class="account"><a href="login.html">LOGIN</a> or 
+                    <a href="register.html">REGISTER</a></p>
+            </div>           
+        </section>
+    </header>
+
+    <section class="card">
+        <div class="swiper card-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Order Online</span>
+                        <h3>Delicious Pizza</h3>
+                        <a href="3_menu.html" class="btn">See Menu</a>
+                    </div>
+                    <div class="image">
+                        <img src="italian img/itasnack2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Order Online</span>                                               
+                        <h3>Zingy Dahi Vada</h3>
+                        <a href="3_menu.html" class="btn">See Menu</a>
+                    </div>
+                    <div class="image">
+                        <img src="indian img/inddahivada.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Order Online</span>                                               
+                        <h3>Crispy Spring Rolls</h3>
+                        <a href="3_menu.html" class="btn">See Menu</a>
+                    </div>
+                    <div class="image">
+                        <img src="chinese img/chinsnack3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+   
+    <section class="category">
+        <h1 class="title">Food Category</h1>
+        <div class="box-container">
+            <a href="3_menu.html" class="box">
+                <img src="images/logo_  snacks.png" alt="">
+                <h3>Snacks</h3>
+            </a>
+            <a href="3_menu.html" class="box">
+                <img src="images/logo_ meals.png" alt="">
+                <h3>Meals</h3>
+            </a>
+            <a href="3_menu.html" class="box">
+                <img src="images/logo_dessert.png" alt="">
+                <h3>Dessert</h3>
+            </a>
+            <a href="3_menu.html" class="box">
+                <img src="images/logo_drinks.png" alt="">
+                <h3>Drinks</h3>
+            </a>
+        </div>
+
+    </section>
+
+    <section class="products">
+        <h1 class="title">OUR SPECIALS</h1>
+        <div class="box-container">
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="italian img/itaspl1.jpeg" alt="Crispy Gnocchi with Tomatoes, Mozzarella & Pesto">
+                <a href="#" class="cat">Dishes</a>
+                <div class="name">Crispy Gnocchi</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹ </span> 299
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/indspl1.png" alt="Baked Fish Masala">
+                <a href="#" class="cat">Dishes</a>
+                <div class="name">Baked Fish Masala</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>459
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chinspl1.png" alt="Honey Garlic Shrimp">
+                <a href="#" class="cat">Dishes</a>
+                <div class="name">Honey Garlic Shrimp </div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>399
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="italian img/itaspl2.png" alt="Tiramisu Icebox Pie">
+                <a href="#" class="cat">Dessert</a>
+                <div class="name">Tiramisu Icebox Pie </div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>249
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/indspl2.jpg" alt="Rabdi Faaluda">
+                <a href="#" class="cat">Dessert</a>
+                <div class="name">Rasmalai</div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>259
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chinspl2.png" alt="Dragon's Beard Candy">
+                <a href="#" class="cat">Dessert</a>
+                <div class="name">Dragon's Beard Candy </div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>299
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="italian img/itaspl3.png" alt="Italian Cream Soda">
+                <a href="#" class="cat">Drinks</a>
+                <div class="name">Italian Cream Soda </div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>179
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="indian img/indspl3.png" alt="Rabdi Faaluda">
+                <a href="#" class="cat">Drinks</a>
+                <div class="name">Rabdi Faaluda </div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>169
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="chinese img/chinspl3.jpg" alt="Brown Sugar Boba Milk Tea">
+                <a href="#" class="cat">Dessert</a>
+                <div class="name">Brown Sugar Boba Milk Tea </div>
+                <div class="flex">
+                    <div class="price">
+                        <span>₹</span>189
+                        <input type="number" name="qty" class="qty" min="1" max="10" value="1"
+                        onkeypress="if(this.value.length == 2) return false;">
+                    </div>
+                </div>
+            </form>
+
+        </div>
+
+        <div class="more-btn">
+            <a href="3_menu.html" class="btn">View All</a>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <section class="grid">
+            <div class="box">
+                <img src="images/logocontact.png" alt="">
+                <h3>Our EMAIL</h3>
+                <a href="mailto:oasiscafe23@gmail.com">oasiscafe23@gmail.com</a>
+              </div>
+
+            <div class="box">
+                <img src="images/logoclock.png" alt="">
+                <h3>Opening Hours</h3>
+                <p>07:00 AM to 10:00 PM</p>
+            </div>
+
+            <div class="box">
+                <img src="images/logolocation.png" alt="">
+                <h3>Our Location</h3>
+                <a href="#">Bhubaneswar, Odisha - 751024</a>
+            </div>
+
+            <div class="box">
+                <img src="images/logonumber.png" alt="">
+                <h3>Our Contact</h3>
+                <a href="tel:1234509876">123-450-9876</a><br>
+                <a href="tel:9876012345">987-601-2345</a>
+            </div>
+
+        </section>
+        <div class="credit">
+        <a href="#" target="_blank">FAQ</a>
+        <a href="#" target="_blank">Contact Us</a>
+        <a href="#" target="_blank">Terms of Use</a>
+        <a href="#" target="_blank">Privacy Policy</a>
+        <a href="#" target="_blank">Refund Policy</a>
+        <p>Created by <span>Soumya Dandapat</span> | &copy 2023-Oasis Cafe  </p>
+    </div>
+    </footer>
+
+    <div class="loader">
+        <img src="images/loader.gif" alt="">
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="JS/scriptoasis.js"></script>
+    <script>
+        var swiper = new Swiper(".card-slider", {
+        loop:true,
+        grabCursor:true,
+        effect: "flip",
+        pagination: {
+        el: ".swiper-pagination",
+        clickable:true,
+    },
+    });
+    </script>
+</body>
+</html>
